@@ -1,8 +1,8 @@
 # Serverless Image Face Blurring
 
-The project aims to build a serverless application that blurs faces on an image.
+The project aims to build a serverless application that blurs faces on an image. Was initially done for school project (HKUST COMP4651) but will work on it more.
 
-It uses [OpenFaaS](https://www.openfaas.com/) for serverless function (Lambda), [Minio](https://min.io/) for original and blurred image storage (S3), and [Minikube](https://minikube.sigs.k8s.io/docs/) with Docker for deployment (EKS). The serverless function uses Python with [MTCNN](https://github.com/ipazc/mtcnn) for face recognition (Rekognition) and [OpenCV](https://pypi.org/project/opencv-python-headless/) for blurring. It then stores the images to a bucket using Minio Python SDK. Front-end website uses Flask. More detail report [here](./assets/COMP4651-Report.pdf)
+It uses [OpenFaaS](https://www.openfaas.com/) for serverless function (Lambda), [Minio](https://min.io/) for original and blurred image storage (S3), and [Minikube](https://minikube.sigs.k8s.io/docs/) with Docker for deployment (EKS). The serverless function uses Python with [MTCNN](https://github.com/ipazc/mtcnn) for face recognition (Rekognition) and [OpenCV](https://pypi.org/project/opencv-python-headless/) for blurring. It then stores the images to a bucket using Minio Python SDK. Front-end website uses Flask.
 
 ## Demo
 
