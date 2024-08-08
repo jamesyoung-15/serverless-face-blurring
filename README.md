@@ -63,7 +63,3 @@ python app.py
 ```
 
 Then go to `localhost:5000` for the web UI. Upload an image using the buttons. If successful, both original and blurred image should be in the bucket that you can check with MinIO client or MinIO web console.
-
-## Deadline
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/B_Lemfbx)
